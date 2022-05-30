@@ -8,6 +8,8 @@ Redux is a state container for JavaScript apps. It is most commonly paired with 
 
 <img align="center" alt="png" src="https://github.com/gamitej/Redux-Projects/blob/master/Inc-Dec/public/redux.png" width="900" height="400" />
 
+1. UI 
+This is where a change is triggered. For example, a user clicking a ‘+’ button in a simple counter app.
 
 ## Installation :
 
