@@ -19,6 +19,14 @@ In Redux, actions are plain JavaScript objects, and they must have a type proper
 ### 3. Reducers 
 These specify how the application’s state should change in response to each action. For example, our new state should be one integer higher than our old state. (It is reducers which give Redux its name — they share the same Latin root).
 
+### 4. Store
+
+The store brings everything together. It holds application state, and it is where you will find three critical methods:
+
+getState()/useSelector — which allows access to the state object
+dispatch(action) — which allows state to be updated
+subscribe(listener) — which registers listeners, allowing code to trigger every time a change takes place
+
 ## Installation :
 
 ```
