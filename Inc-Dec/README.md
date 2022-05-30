@@ -23,9 +23,17 @@ These specify how the application’s state should change in response to each ac
 
 The store brings everything together. It holds application state, and it is where you will find three critical methods:
 
-getState()/useSelector — which allows access to the state object
+getState() or useSelector — which allows access to the state object
 dispatch(action) — which allows state to be updated
 subscribe(listener) — which registers listeners, allowing code to trigger every time a change takes place
+
+## There are also a few more terms you’re likely to encounter when using Redux:
+
+### Boilerplate: 
+Sections of code that have to be included in many places with little or no alteration. One of the reasons Redux can seem tricky to beginners is because it contains more boilerplate than you’re likely used to for front-end development.
+
+### Payload: 
+The conventional name used for the property that holds the actual data in a Redux action object. A payload isn’t necessary, but it’s fairly common to see actions defined like this:
 
 ## Installation :
 
