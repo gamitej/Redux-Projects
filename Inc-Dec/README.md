@@ -8,13 +8,16 @@ Redux is a state container for JavaScript apps. It is most commonly paired with 
 
 <img align="center" alt="png" src="https://github.com/gamitej/Redux-Projects/blob/master/Inc-Dec/public/redux.png" width="900" height="400" />
 
-## 1. UI 
+### 1. UI 
 This is where a change is triggered. For example, a user clicking a ‘+’ button in a simple counter app.
 
-## 2. Acions 
+### 2. Acions 
 The actual action we want to take place, for example, “increment”.
 
 In Redux, actions are plain JavaScript objects, and they must have a type property (e.g. 'INC','DEC' ).
+
+### 3. Reducers 
+These specify how the application’s state should change in response to each action. For example, our new state should be one integer higher than our old state. (It is reducers which give Redux its name — they share the same Latin root).
 
 ## Installation :
 
