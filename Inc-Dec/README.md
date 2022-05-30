@@ -11,6 +11,11 @@ Redux is a state container for JavaScript apps. It is most commonly paired with 
 ## 1. UI 
 This is where a change is triggered. For example, a user clicking a ‘+’ button in a simple counter app.
 
+## 2. Acions 
+The actual action we want to take place, for example, “increment”.
+
+In Redux, actions are plain JavaScript objects, and they must have a type property (e.g. 'INC','DEC' ).
+
 ## Installation :
 
 ```
