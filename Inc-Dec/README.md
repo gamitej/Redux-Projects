@@ -6,6 +6,7 @@ Redux is a state container for JavaScript apps. It is most commonly paired with 
 
 ## Redux Flow :-
 
+<img align="center" alt="png" src="https://github.com/gamitej/Redux-Projects/blob/master/Inc-Dec/public/redux.png" width="900" height="400" />
 
 
 ## Installation :
