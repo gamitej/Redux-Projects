@@ -27,7 +27,7 @@ getState() or useSelector — which allows access to the state object
 dispatch(action) — which allows state to be updated
 subscribe(listener) — which registers listeners, allowing code to trigger every time a change takes place
 
-## There are also a few more terms you’re likely to encounter when using Redux:
+## Redux Terms:
 
 ### Boilerplate: 
 Sections of code that have to be included in many places with little or no alteration. One of the reasons Redux can seem tricky to beginners is because it contains more boilerplate than you’re likely used to for front-end development.
