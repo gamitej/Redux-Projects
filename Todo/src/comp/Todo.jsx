@@ -23,7 +23,9 @@ const Todo = () => {
           <i
             className="fa fa-plus add-btn"
             onClick={() => dispatch(addTodo(inputData), setInputData(""))}
-          ></i>
+          >
+            +
+          </i>
         </div>
 
         <div className="showItems">
